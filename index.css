@@ -1,0 +1,200 @@
+body{
+    padding: 0;margin: 0;
+    background-color: #B3C6F0;
+}
+
+.navContainer{
+    display: flex;flex-direction: row;flex-wrap: wrap;
+    justify-content: space-around; align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color:#B3C6F0;
+    z-index: 5;
+}
+ /* .navContainer ul #one li .fa-solid {
+    color:orange
+} */
+
+
+
+
+
+#search{
+
+    display:flex ;width:100%;height:100vh;background-color:black;flex-wrap:wrap;
+    /* visibility: hidden; */
+    display: none;opacity: 0.5;z-index:5;
+    
+}
+
+#search #closeIcon{
+   
+    width: 4rem;
+    height: auto;
+    font-size:3rem;color:white;display: flex;justify-content: end;align-items: end;margin-left:70rem;
+}
+
+
+#search #closeIcon.fa-solid {display: flex;justify-content: end;align-items: center;}
+
+#search form{
+   
+  
+    z-index:1;display:flex;flex-direction:row;flex-wrap:wrap;width:100%;height:100%;justify-content:center;align-items:center;font-size:30px;color:white;
+
+
+}
+
+#search form input{
+    width:40%;
+    height: 25px;
+}
+
+
+
+.slideContainer{
+    position:absolute ;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+
+
+}
+
+
+
+
+
+.cardsContainer{
+    display: flex; flex-wrap:wrap;background-color: #B3C6F0;width:100%;
+    justify-content: center;align-items: center;z-index:9;
+   flex-direction: row;gap:10px;
+}
+
+
+
+
+
+
+
+.cardsContainer div{
+    display: flex;width: 100%;height:60px;justify-content: center;
+    align-items: center;gap:0;background-color: #B3C6F0;
+}
+
+.cardsContainer div h1{
+    font-size: 5rem;font-weight: 70rem;color: aqua;
+}
+
+.cardsContainer span img{
+    display: flex;flex-direction: row;justify-content: center;
+    object-fit: cover;width: 300px;height: 300px;z-index: 5;border-radius: 100px ;gap:40px;
+}
+
+.cardsContainer span p{
+    margin-left: 50px;
+
+}
+
+.cardsContainer span button{
+    justify-content: center;align-items:center;margin-left: 120px;
+}
+
+.subCard{
+    display: flex;width: 100%;height: auto;;flex-direction: row;
+    flex-wrap: wrap;background-color: #B3C6F0;
+}
+
+
+.swiperComtainer{
+    display: flex;flex-direction: column;justify-content: center;
+    flex-wrap: wrap;
+}
+
+.swiperComtainer h1{
+    text-align: center;
+}
+
+.swiperComtainer .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiperComtainer .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:25px;
+  }
+  .swiperComtainer .swiper-slide .iconss{
+    display: block;width: auto;height: 25px;background-color: blue;margin-top: -150px;
+  }
+
+  .swiperComtainer .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .swiperComtainer .swiper-slide span {
+    display: flex;flex-direction: row;flex-wrap: wrap;width: 100%;height:auto;
+    justify-content: center;align-items: center;
+  }
+
+  .swiperComtainer .swiper-slide button{
+    display:flex;flex-wrap: wrap;align-items: end;
+    
+  }
+
+
+  .newCardContainer{
+    display: flex;flex-direction: row;flex-wrap: wrap;width: 100%;
+    height: auto;justify-content: center;align-items: center;gap:3rem;background-color: #B3C6F0;
+  }
+
+
+  .descritiveCards{
+    display: flex;flex-direction: row;width: 100%;height: auto;flex-wrap: wrap;gap:25px;justify-content: center;
+    align-items:center ;text-align: center;background-color: #B3C6F0;
+  }
+
+  .footecontainer{
+    display:flex;justify-content: space-around;align-items: flex-end;flex-wrap: wrap;flex-direction: row;
+background-color: #B3C6F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes dropDown {
+    0%{
+        height: 100px;
+    }
+    25%{
+        height: 150px;
+    }
+    50%{
+        height: 200px;
+    }
+    75%{
+        height: 250px;
+    }
+    100%{
+        height: 300px;
+    }
+}
