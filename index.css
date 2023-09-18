@@ -11,9 +11,7 @@ body{
     background-color:#B3C6F0;
     z-index: 5;
 }
- /* .navContainer ul #one li .fa-solid {
-    color:orange
-} */
+
 
 
 
@@ -132,8 +130,9 @@ body{
     gap:25px;
   }
   .swiperComtainer .swiper-slide .iconss{
-    display: block;width: auto;height: 25px;background-color: blue;margin-top: -150px;
+    display: block;width: auto;height: 25px;background-color: blue;margin-top: -150px;display: none;
   }
+ 
 
   .swiperComtainer .swiper-slide img {
     display: block;
@@ -141,6 +140,8 @@ body{
     height: 300px;
     object-fit: cover;
   }
+
+  .swiperComtainer .swiper-slide img:hover +  .iconss{display: block;}
 
   .swiperComtainer .swiper-slide span {
     display: flex;flex-direction: row;flex-wrap: wrap;width: 100%;height:auto;
